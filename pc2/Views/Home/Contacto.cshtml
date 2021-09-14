@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Plantilla1";
+}
+<h1>Formulario de Adopcion</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="">Nombre </label>
+        <input type="text" name="Nombre" id="" class="form-control">
+           <label for="">Apellido Paterno:</label>
+        <input type="text" name="Apellidop" id="" class="form-control">
+           <label for="">Apellido Materno:</label>
+        <input type="text" name="Apellidom" id="" class="form-control">
+           <label for="">Mascota:</label>
+        <input type="text" name="Mascota" id="" class="form-control">
+         <div class="form-group">
+        <label for="">Descripcion:</label>
+        <textarea name="Descripcion" id="" cols="20" rows="10" class="form-control"></textarea>
+    </div>
+        <label for="">Telefono:</label>
+        <input type="text" name="Telefono" id="" class="form-control">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected>Distrito</option>
+  <option value="1">A</option>
+  <option value="2">B</option>
+  <option value="3">C</option>
+</select>
+<br>
+        <label for="">Dirrecion:</label>
+        <input type="text" name="Dirrecion" id="" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Mensaje:</label>
+        <textarea name="Mensaje" id="" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+    <button class="btn btn-primary">Enviar mensaje</button>
+</form>
